@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Castle
+comment0.text=this\ class\ is\ responsible\ for\ setting\ the\ name\ of\ the\ castle\ piece,\ as\ well\n\ \ \ as\ providing\ the\ graphics\ for\ the\ piece\ ,\ and\ also\ setting\ the\ movement\n\ \ \ pattern\ for\ the\ piece\n\ \ \ note\:-\ the\ movement\ pattern\ of\ this\ piece\ is\ decided\ according\ to\ the\ \nbounds\ surrounding\ the\ piece
+comment1.params=name\ newColor\ theBoard
+comment1.target=Castle(java.lang.String,\ java.lang.String,\ Board)
+comment1.text=below\ constructor\ is\ used\ to\ set\ the\ graphics\ for\ the\ castle\ piece,\nand\ also\ set\ the\ color\ of\ the\ piece\ ,\ and\ current\ board\ in\ use
+comment2.params=newColor\ theBoard
+comment2.target=Castle(java.lang.String,\ Board)
+comment2.text=below\ constructor\ is\ used\ to\ set\ the\ name\ of\ the\ piece,color,\ and\ the\ncurrent\ board\ in\ use\ ,\ as\ well\ as\ provide\ graphics\ for\ the\ piece
+comment3.params=currentRow\ currentCol\ futureRow\ futureCol
+comment3.target=boolean\ isValidMove(int,\ int,\ int,\ int)
+comment3.text=below\ method\ is\ used\ to\ set\ the\ movement\ pattern\ for\ the\ castle\npiece
+comment4.params=currentRow\ currentCol\ futureRow\ futureCol
+comment4.target=int\ detectUp(int,\ int,\ int,\ int)
+comment4.text=below\ method\ is\ used\ to\ detect\ if\ there\ is\ any\ piece\ is\ blocking\ \n\ \ \ \ \ \ \ the\ path\ of\ the\ castle\ upward,\ and\ also\ detect\ if\ the\ piece\ncan\ be\ taken\ out\ by\ the\ castle\ or\ not
+comment5.params=currentRow\ currentCol\ futureRow\ futureCol
+comment5.target=int\ detectDown(int,\ int,\ int,\ int)
+comment5.text=below\ method\ is\ used\ to\ detect\ if\ there\ is\ any\ piece\ is\ blocking\ \n\ \ \ \ \ \ \ the\ path\ of\ the\ castle\ downward,\ and\ also\ detect\ if\ the\ piece\ncan\ be\ taken\ out\ by\ the\ castle\ or\ not
+comment6.params=currentRow\ currentCol\ futureRow\ futureCol
+comment6.target=int\ detectRight(int,\ int,\ int,\ int)
+comment6.text=below\ method\ is\ used\ to\ detect\ if\ there\ is\ any\ piece\ is\ blocking\ \n\ \ \ \ \ \ \ the\ path\ of\ the\ castle\ in\ the\ Right\ side\ of\ the\ piece\ ,and\ also\ \ndetect\ if\ the\ piece\ can\ be\ taken\ out\ by\ the\ castle\ or\ not
+comment7.params=currentRow\ currentCol\ futureRow\ futureCol
+comment7.target=int\ detectLeft(int,\ int,\ int,\ int)
+comment7.text=below\ method\ is\ used\ to\ detect\ if\ there\ is\ any\ piece\ is\ blocking\ \n\ \ \ \ \ \ \ the\ path\ of\ the\ castle\ in\ the\ left\ side\ of\ the\ piece\ ,and\ also\ \ndetect\ if\ the\ piece\ can\ be\ taken\ out\ by\ the\ castle\ or\ not
+numComments=8

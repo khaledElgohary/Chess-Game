@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Bishop
+comment0.text=this\ class\ is\ used\ to\ set\ the\ piece\ name\ for\ the\ bishop\ piece,\ as\ well\n\ \ \ as\ provide\ graphics\ for\ the\ piece,\ and\ also\ setting\ the\ movement\ pattern\n\ \ \ for\ the\ piece\nnote\:-\ the\ movement\ pattern\ for\ this\ chess\ piece\ is\ decided\ according\ to\ the\nempty\ tiles\ the\ piece\ can\ move\ to\ on\ the\ board
+comment1.params=name\ newColor\ theBoard
+comment1.target=Bishop(java.lang.String,\ java.lang.String,\ Board)
+comment1.text=below\ constructor\ is\ used\ to\ set\ the\ color\ of\ the\ piece,\ and\ the\nboard\ in\ use
+comment2.params=newColor\ theBoard
+comment2.target=Bishop(java.lang.String,\ Board)
+comment2.text=below\ constructor\ is\ used\ to\ set\ the\ color\ of\ the\ piece,\ it's\ name,\nand\ the\ current\ board\ in\ use
+comment3.params=currentRow\ currentCol\ futureRow\ futureCol
+comment3.target=boolean\ isValidMove(int,\ int,\ int,\ int)
+comment3.text=below\ method\ is\ used\ to\ set\ the\ movement\ pattern\ for\ the\ bishop\npiece
+comment4.params=currentRow\ currentCol
+comment4.target=int[][]\ detectValidCells(int,\ int)
+comment4.text=below\ method\ is\ used\ to\ detect\ all\ the\ available\ tiles\ to\ move\ to\nin\ all\ the\ diagonal\ positive\ and\ negative\ directions
+comment5.params=arr
+comment5.target=java.lang.String\ toString(int[][])
+comment5.text=below\ method\ is\ used\ to\ printout\ a\ 2d\ to\ represent\ the\ board\ and\ the\n\ \ \ \ \ \ \ available\ tiles\ to\ move\ to\ of\ bishop\ chess\ piece\n\ \ \ \ \ \ \ note\:-current\ piece\ is\ represented\ as\ 7\ on\ the\ outputted\ table\n\ \ \ \ \ \ \ and\ empty\ cells\ to\ move\ to\ is\ represented\ as\ 5\ ,\ and\ if\ a\ piece\ is\ \n\ \ \ \ \ \ \ present\ on\ a\ tile\ and\ can\ be\ take\ out\ it\ is\ represent\ as\ 0\ ,else\ \n\ \ \ \ \ \ \ if\ tile\ is\ restricted\ to\ move\ to\ or\ a\ piece\ of\ same\ color\ is\ available\nit\ is\ presented\ as\ 1
+comment6.params=arr
+comment6.target=int[][]\ initializer(int[][])
+comment6.text=below\ method\ is\ used\ to\ intialize\ any\ 2d\ array\ is\ 1's
+numComments=7

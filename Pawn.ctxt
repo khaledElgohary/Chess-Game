@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Pawn
+comment0.text=this\ class\ is\ used\ to\ set\ the\ name\ of\ the\ pawn\ chess\ piece,\ as\ well\ as\ \nthe\ graphics\ for\ the\ piece,\ and\ set\ the\ movement\ pattern\ of\ the\ piece
+comment1.params=name\ newColor\ theBoard
+comment1.target=Pawn(java.lang.String,\ java.lang.String,\ Board)
+comment1.text=below\ constructor\ is\ used\ to\ set\ the\ color\ of\ the\ piece,\ as\ well\ as\nthe\ current\ board\ in\ use\ ,\ and\ provide\ graphics\ for\ the\ piece
+comment2.params=newColor\ theBoard
+comment2.target=Pawn(java.lang.String,\ Board)
+comment2.text=below\ constructor\ is\ used\ to\ set\ the\ color\ of\ the\ piece,\ as\ well\ as\n\ \ \ \ \ \ \ the\ current\ board\ in\ use,provide\ graphics\ for\ the\ board\ ,\ and\ set\ the\nname\ of\ the\ piece
+comment3.params=currentRow\ currentCol\ futureRow\ futureCol
+comment3.target=boolean\ isValidMove(int,\ int,\ int,\ int)
+comment3.text=below\ method\ is\ used\ to\ set\ the\ movement\ pattern\ for\ the\ pawn\ piece
+comment4.params=currentRow\ currentCol
+comment4.target=int[][]\ validCells(int,\ int)
+comment4.text=\ below\ method\ is\ used\ to\ detect\ the\ valid\ cells\ available\ for\ the\ pawn\npiece\ to\ move\ to\ on\ the\ board
+comment5.params=arr
+comment5.target=java.lang.String\ toString(int[][])
+comment5.text=below\ method\ is\ used\ to\ to\ printout\ 2d\ array\ representing\ board\ and\ \n\ \ \ \ \ \ \ available\ tiles\ to\ move\ to(5\ represent\ current\ chose\ chess\ piece\n\ \ \ \ \ \ \ location\ ,\ 1\ if\ the\ current\ tile\ is\ available\ to\ move\ to,\ else\ \n\ \ \ \ \ \ \ if\ there\ is\ a\ piece\ of\ same\ color\ available\ or\ tile\ not\ available\nto\ move\ to\ it\ will\ represent\ 0
+numComments=6

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Knight
+comment0.text=this\ class\ is\ used\ to\ set\ the\ piecename\ for\ the\ knight\ piece,\ as\ well\n\ \ \ as\ provide\ graphics\ for\ the\ piece,\ and\ also\ set\ the\ movement\ pattern\n\ \ \ for\ the\ piece\nnote\:-\ for\ this\ movement\ pattern,\ we\ don't\ need\ to\ rely\ on\ the\ idea\ of\ the\nbounds\ or\ available\ tiles\ to\ move\ to\ ,\ since\ this\ piece\ can\ jump\ on\ top\ of\n\ the\ other\ piece\ ,\ therefore\ we\ only\ need\ to\ check\ if\ a\ piece\ is\ visible\ at\nthe\ desired\ location\ on\ the\ board\ or\ not.
+comment1.params=name\ newColor\ theBoard
+comment1.target=Knight(java.lang.String,\ java.lang.String,\ Board)
+comment1.text=below\ constructor\ is\ used\ to\ set\ the\ color\ of\ the\ piece,\n\ \ \ \ \ \ \ and\ also\ the\ current\ board\ in\ use,\ and\ provide\ graphics\nfor\ the\ piece
+comment2.params=newColor\ theBoard
+comment2.target=Knight(java.lang.String,\ Board)
+comment2.text=below\ constructor\ is\ used\ to\ set\ the\ name\ of\ the\ knight\ piece,\ as\ well\nas\ provide\ it's\ graphics\ ,\ color,\ and\ current\ board\ in\ use
+comment3.params=currentRow\ currentCol\ futureRow\ futureCol
+comment3.target=boolean\ isValidMove(int,\ int,\ int,\ int)
+comment3.text=below\ method\ is\ used\ to\ set\ the\ movement\ pattern\ for\ the\ knight\npiece
+numComments=4

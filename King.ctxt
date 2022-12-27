@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=King
+comment0.text=\ this\ class\ is\ responsible\ for\ providing\ movement\ pattern\ for\ king\ piece\n\ \ \ \ and\ also\ loading\ its\ graphics\ reference\ as\ well\ as\ setting\ the\ piece\nname
+comment1.params=name\ newColor\ theBoard
+comment1.target=King(java.lang.String,\ java.lang.String,\ Board)
+comment1.text=below\ constructor\ is\ used\ to\ set\ color\ of\ piece\ and\ board\ in\ \nuse
+comment2.params=newColor\ theBoard
+comment2.target=King(java.lang.String,\ Board)
+comment2.text=\ below\ constructor\ is\ used\ to\ set\ name\ of\ the\ piece,\ and\ the\nboard\ in\ use
+comment3.params=currentRow\ currentCol\ futureRow\ futureCol
+comment3.target=boolean\ isValidMove(int,\ int,\ int,\ int)
+comment3.text=\ below\ method\ is\ responsible\ for\ setting\ the\ movement\ pattern\ of\ the\npiece
+numComments=4

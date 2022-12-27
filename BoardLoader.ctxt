@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BoardLoader
+comment0.text=\ this\ class\ is\ used\ to\ load\ data\ from\ a\ 2d\ array\ ,\ that\ contains\ string\ \ncodes
+comment1.params=theBoard\ fileName
+comment1.target=void\ loadBoardState(Board,\ java.lang.String)
+comment1.text=\ below\ statement\ is\ used\ to\ create\ new\ board\ \n\ \ \ and\ also\ handle\ the\ other\ methods\ to\ eventually\ load\ piece\ into\ the\ncreated\ board
+comment2.params=fileName
+comment2.target=java.lang.String[][]\ parseFile(java.lang.String)
+comment2.text=below\ method\ is\ used\ to\ read\ data\ from\ a\ file\nand
+comment3.params=targetBoard\ boardCodes
+comment3.target=void\ loadPiecesFromString(Board,\ java.lang.String[][])
+comment3.text=\ below\ method\ is\ used\ to\ loop\ through\ the\ provided\ array\ as\ parameter\n\ \ \ and\ according\ to\ the\ code\ at\ each\ location\ in\ the\ board\ it\ assigns\ \nthe\ tile\ to\ it
+comment4.params=targetBoard\ code
+comment4.target=ChessPiece\ loadChessPiece(Board,\ java.lang.String)
+comment4.text=below\ method\ is\ used\ to\ create\ a\ chess\ piece\ according\ to\ the\ string\ code\nin\ the\ string\ codes\ array
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\ below\ method\ is\ used\ to\ return\ string\ codes\ array\ in\ a\ form\ of\ a\ table\nsimilar\ to\ the\ board
+numComments=6
